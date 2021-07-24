@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",                                
+    "module": "commonjs",                            
+    "lib": ["es6"],                                  
+    "outDir": "./dist",                             
+    "removeComments": true,                      
+    // "strict": false,                                 
+     "moduleResolution": "node",                 
+     "baseUrl": "./",                             
+     "paths": {
+       "*": [
+         "node_modules/*"
+       ]
+     },          
+    "resolveJsonModule": true,      
+    "strictPropertyInitialization": false,                
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true        
+  }
+}
